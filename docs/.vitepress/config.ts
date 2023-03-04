@@ -3,6 +3,7 @@ export default {
     description: 'A collection of resources to help you set up and better understand Zeppelin',
     cleanUrls: true,
     appearance: 'dark',
+    base: '/',
     themeConfig: {
       siteTitle: 'Zeppelin Guide & Tricks',
 			outlineTitle: 'Table Of Content',
