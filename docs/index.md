@@ -1,5 +1,8 @@
 ---
-description: A collection of resources to help you set up and better understand Zeppelin
+head:
+  - - meta
+    - name: description
+      content: A collection of resources to help you set up and better understand Zeppelin
 editLink: false
 lastUpdated: false
 outline: [2, 5]

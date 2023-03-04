@@ -1,5 +1,8 @@
 ---
-description: Credits. Thanks.
+head:
+  - - meta
+    - name: description
+      content: Credits. Thanks.
 editLink: false
 lastUpdated: false
 ---
