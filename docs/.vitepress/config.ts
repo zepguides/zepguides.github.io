@@ -12,7 +12,7 @@ export default {
         alt: 'Logo',
       },
       socialLinks: [
-        { icon: 'github', link: 'https://github.com/ZeppelinBot' },
+        { icon: 'github', link: 'https://github.com/zepguides' },
       ],
       lastUpdatedText: 'Updated Date',
       docFooter: {
