@@ -41,4 +41,4 @@ const members = [
 <img src="https://avatars.githubusercontent.com/u/96340112?s=200&v=4" alt="Zep Logo" width="48"/>| [Zeppelin](https://zeppelin.gg/) | Really, the bot
 
 ## Dev, Write and Design Team
-<VPTeamMembers size="small" :members="members" />
+<VPTeamMembers size="medium" :members="members" />
