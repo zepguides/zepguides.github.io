@@ -26,7 +26,7 @@ const members = [
   {
     avatar: 'https://avatars.githubusercontent.com/u/85186792?v=4',
     name: 'Diso',
-    title: 'CEO',
+    title: 'CEO-0',
     links: [
       { icon: 'twitter', link: 'https://github.com/DisoQ' }
     ]
