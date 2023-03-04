@@ -12,7 +12,7 @@ export default {
     appearance: 'dark',
     base: '/',
     themeConfig: {
-      siteTitle: false,
+      siteTitle: 'Zeppelin Guide & Tricks',
 			outlineTitle: 'Table Of Content',
       logo: {
         src: 'Zep.png',
