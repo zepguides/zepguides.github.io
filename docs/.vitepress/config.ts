@@ -1,5 +1,5 @@
 export default {
-    meta:[
+    head:[
       ['meta', { property: 'og:title', content: 'Zeppelin Guide & Tricks' }],
       ['meta', { property: 'theme-color', content: '#3e62d8' }],
       ['meta', { property: 'og:image', content: `https://cdn.discordapp.com/attachments/1017537991813632111/1081653791574736996/OGImage.png` }],
