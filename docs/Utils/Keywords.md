@@ -1,4 +1,10 @@
 ---
+head:
+  - - meta
+    - name: og:description
+      content: Key combinations that can be used within the editor.
+    - name: description
+      content: Key combinations that can be used within the editor.
 sidebar_position: 1
 title: Keywords
 ---

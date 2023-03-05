@@ -1,7 +1,12 @@
 ---
+head:
+  - - meta
+    - name: og:description
+      content: Explanation of the plugins used
+    - name: description
+      content: Explanation of the plugins used
 title: Introduction
 editLink: false
-description: Basic introduction guide
 lastUpdated: true
 ---
 # Basic Guide: Introduction

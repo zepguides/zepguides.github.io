@@ -1,6 +1,8 @@
 ---
 head:
   - - meta
+    - name: og:description
+      content: Credits. Thanks.
     - name: description
       content: Credits. Thanks.
 editLink: false

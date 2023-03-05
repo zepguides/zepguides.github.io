@@ -1,6 +1,8 @@
 ---
 head:
   - - meta
+    - name: og:description
+      content: A collection of resources to help you set up and better understand Zeppelin
     - name: description
       content: A collection of resources to help you set up and better understand Zeppelin
 editLink: false
