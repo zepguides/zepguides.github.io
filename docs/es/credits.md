@@ -2,9 +2,9 @@
 head:
   - - meta
     - name: og:description
-      content: Credits. Thanks.
+      content: Creditos.
     - name: description
-      content: Credits. Thanks.
+      content: Creditos
 editLink: false
 lastUpdated: false
 ---
@@ -15,7 +15,7 @@ const members = [
   {
     avatar: 'https://avatars.githubusercontent.com/u/85186792?v=4',
     name: 'Diso',
-    title: 'Creator and Writer',
+    title: 'Creador y escritor',
     links: [
       { icon: 'github', link: 'https://github.com/DisoQ' }
     ]
@@ -31,16 +31,14 @@ const members = [
 ]
 </script>
 
-# Thank You
-<p>This project was quite complex to develop, largely due to lack of time, but it has been carried out to offer the best result to the community.</p>
+# Gracias
+<p>Este proyecto ha sido complejo de desarrollar, sobre todo por la falta de tiempo, pero ha sido llevado a cabo para ofrecer el mejor resultado a la comunidad.</p>
 
-<p>Zeppelin is a bot that I appreciate very much and it was important for me to do this because of the great amount of problems that the community presents with errors, lack of knowledge of the configuration scheme and so on.</p>
-
-## Credits
-|Image | Name | Description|
+## Creditos
+|Imagen | Nombre | Descripción|
 |:-:|:-:|:-|
 <img src="https://avatars.githubusercontent.com/u/6128107?s=200&v=4" alt="Vue Logo" width="48"/> | [VitePress](https://github.com/vuejs/vitepress) | Static Site Generator |
-<img src="https://avatars.githubusercontent.com/u/96340112?s=200&v=4" alt="Zep Logo" width="48"/>| [Zeppelin](https://zeppelin.gg/) | Really, the bot
+<img src="https://avatars.githubusercontent.com/u/96340112?s=200&v=4" alt="Zep Logo" width="48"/>| [Zeppelin](https://zeppelin.gg/) | El bot
 
-## Dev, Write and Design Team
+## Equipo de escritura, desarrollo y diseño
 <VPTeamMembers size="medium" :members="members" />

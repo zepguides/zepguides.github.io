@@ -22,7 +22,7 @@ Why for medium and large servers? Zeppelin configuration is pretty robust and ca
 This separate the requirements of the communities and the members they host, because, the usefulness in moderation and automoderation should be high in communities with a higher proportion of users.
 
 ## Why a Zeppelin Tricks/Guide?
-I have a special affection for the bot since I knew it when I was looking for one with a good configuration capacity and when I saw its documentation I was quite interested. It is not a simple bot at all and new users have a lot of questions and mistakes when they start, I was also one of them and I learned by making mistakes. I will look for a way to show how to use the bot, both for basic and advanced use. I will also show tricks, tips and explanations to implement in the configuration.
+`Diso note:` I have a special affection for the bot since I knew it when I was looking for one with a good configuration capacity and when I saw its documentation I was quite interested. It is not a simple bot at all and new users have a lot of questions and mistakes when they start, I was also one of them and I learned by making mistakes. We will look for a way to show how to use the bot, both for basic and advanced use. I will also show tricks, tips and explanations to implement in the configuration.
 
 
 ## How does Zeppelin work?
@@ -46,10 +46,6 @@ The format used by Zeppelin for its configuration is YAML, for this language you
 
 ## Guides
 Now that we know what we need to start configuring the bot, you can take a look at these guides.
-
-<div align=center>
-<img src="/assets/GuidesSidebar.png" alt="Guides Sidebar"> 
-</div>
 
 ### Guide Types
 
