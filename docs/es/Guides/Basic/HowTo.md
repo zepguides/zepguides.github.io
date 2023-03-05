@@ -22,6 +22,9 @@ Al ser un bot privado requiere del cumplimiento de un requisito para poder utili
 
 Al obtener acceso obtendrás el rol <Badge type="tip" text="Bot User" />.
 :::
+::: info Extras
+Si ya eres un Bot User puedes solicitar el bot sin necesidad de cumplir los requisitos anteriores.
+:::
 
 ## Dashboard
 Al ingresar a su [Dashboard](https://zeppelin.gg/dashboard) estará disponible tu servidor y este mismo contará con 3 opciones principales.
@@ -98,8 +101,8 @@ prefix: '!'
 Muchos de los plugins que utilizaremos se distinguen, por defecto, por niveles. Entendamos que un moderador o administrador no tiene un mismo "nivel" que un miembro, por tanto puede escribirse así:
 ```yml config.yml
 levels:
-  '1234567890123': 100 #Admin ID Role
-  '3210987654321': 50 #Moderator ID Role
+  '1234567890123': 100 # Admin ID Role
+  '3210987654321': 50 # Moderator ID Role
 ```
 
 ### Plugins
@@ -114,8 +117,8 @@ plugins:
 prefix: '!'
 
 levels:
-  '1234567890123': 100 #Administrador Rol ID
-  '3210987654321': 50 #Moderador Rol ID
+  '1234567890123': 100 # Administrador Rol ID
+  '3210987654321': 50 # Moderador Rol ID
 
 plugins:
 [...]
