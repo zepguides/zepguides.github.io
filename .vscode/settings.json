@@ -1,16 +1,16 @@
 {
-	"editor.tabSize": 2,
-	"editor.indentSize": "tabSize",
-	"[yaml]": {
-		"editor.insertSpaces": true,
-		"editor.tabSize": 2,
-		"editor.autoIndent": "advanced",
-		"diffEditor.ignoreTrimWhitespace": false
-	},
-	"[markdown]": {
-		"editor.insertSpaces": true,
-		"editor.tabSize": 2,
-		"editor.autoIndent": "advanced",
-		"diffEditor.ignoreTrimWhitespace": false
-	}
+  "editor.tabSize": 2,
+  "editor.indentSize": "tabSize",
+  "[yaml]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "editor.autoIndent": "advanced",
+    "diffEditor.ignoreTrimWhitespace": false
+  },
+  "[markdown]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "editor.autoIndent": "advanced",
+    "diffEditor.ignoreTrimWhitespace": false
+  }
 }
