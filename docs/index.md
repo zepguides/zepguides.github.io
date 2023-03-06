@@ -69,7 +69,7 @@ It is Zeppelin's most detailed and robust guide.
     - [<Badge type="tip" text="Zep by Dex" />](https://github.com/shoaibsajid1/Zeppelin#zep-by-dex) - Detailed & Easy to understand Zeppelin Configs by DEX 
     - [<Badge type="tip" text="Zeppelin Handbook" />](https://docs.google.com/presentation/d/e/2PACX-1vQTFZW4NiJicngfAv36tLlWG5XjktVyZhljekOkzUyzsktwcNCH_Zm82Dm3r1c7S7vKOArJ6XIO5azC/pub?start=true#slide=id.gc6f9e470d_0_0) - Basic and advanced use of Zeppelin's main commands
 - **Selfhost resources**
-    - [<Badge type="tip" text="Selfhost Unnoficial Docs" />](https://selfhosting-docs.pages.dev/) - Knowledge to be able to turn on your own Zeppelin and other patches to apply.
+    - [<Badge type="tip" text="Zeppelin Wiki" />](https://zeppelin.wiki/) - Knowledge to be able to turn on your own Zeppelin and other patches to apply.
     - [<Badge type="tip" text="Zeppelin Development" />](https://github.com/ZeppelinBot/Zeppelin/blob/master/DEVELOPMENT.md) - Official guide to the Zeppelin development environment.
 
 ### YAML
