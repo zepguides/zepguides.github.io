@@ -1,0 +1,44 @@
+/* main color palette */
+:root{
+  --vp-c-green: #687dca;
+  --vp-c-green-light: #7289da;
+  --vp-c-green-lighter: #9aabe7;
+  --vp-c-green-dark: #687dca; 
+  --vp-c-green-darker: #415497;
+}
+
+/* color theme */
+:root{
+  --vp-c-bg: #f8f6f6;
+  --vp-c-bg-alt: #f0f0f0;
+}
+.dark {
+  --vp-c-bg: #1a1a1b;
+  --vp-c-bg-alt: #1b1b1d;
+}
+
+/* override badges colors */
+:root {
+  --vp-badge-info-border: #303030;
+  --vp-badge-info-text: #303030;
+  --vp-badge-info-bg: #3030300a;
+
+  --vp-badge-tip-border: #687dca;
+  --vp-badge-tip-text: #687dca;
+  --vp-badge-tip-bg: #5865f20a;
+}
+
+.dark {
+  --vp-badge-tip-border: #687dca;
+  --vp-badge-tip-text: #687dca;
+
+  --vp-badge-info-border: #d6ece7;
+  --vp-badge-info-text: #d6ece7;
+  --vp-badge-info-bg: #d6ece705;
+}
+
+/* override custom blocks*/
+:root {
+--vp-custom-block-tip-border: #687dca;
+--vp-custom-block-tip-text: #687dca;
+}
