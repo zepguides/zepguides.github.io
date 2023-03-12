@@ -69,7 +69,7 @@ Es la guía mas detallada de Zeppelin.
     - [<Badge type="tip" text="Zep by Dex" />](https://github.com/shoaibsajid1/Zeppelin#zep-by-dex) - Una serie de configuraciones de Zeppelin hechas por Dex, soporte del bot.
     - [<Badge type="tip" text="Zeppelin Handbook" />](https://docs.google.com/presentation/d/e/2PACX-1vQTFZW4NiJicngfAv36tLlWG5XjktVyZhljekOkzUyzsktwcNCH_Zm82Dm3r1c7S7vKOArJ6XIO5azC/pub?start=true#slide=id.gc6f9e470d_0_0) - El uso básico y avanzado del manejo de los comandos.
 - **Selfhost**
-    - [<Badge type="tip" text="Selfhost Unnoficial Docs" />](https://selfhosting-docs.pages.dev/) - Saberes para encender nuestra propia instancia del bot y darle agregados hechos por la comunidad.
+    - [<Badge type="tip" text="Zeppelin Wiki" />](https://zeppelin.wiki/) - Saberes para encender nuestra propia instancia del bot y darle agregados hechos por la comunidad.
     - [<Badge type="tip" text="Zeppelin Development" />](https://github.com/ZeppelinBot/Zeppelin/blob/master/DEVELOPMENT.md) - La guía oficial del entorno de desarrollo.
 
 ### YAML
