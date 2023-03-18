@@ -1,7 +1,7 @@
 {
   "devDependencies": {
     "gh-pages": "^5.0.0",
-    "vitepress": "^1.0.0-alpha.51",
+    "vitepress": "^1.0.0-alpha.60",
     "vue": "^3.2.47"
   },
   "scripts": {
@@ -9,6 +9,7 @@
     "build": "vitepress build docs",
     "preview": "vitepress preview docs",
     "deploy": "gh-pages -d docs/.vitepress/dist",
-    "buildp": "vitepress build docs && gh-pages -d docs/.vitepress/dist"
+    "buildp": "vitepress build docs && gh-pages -d docs/.vitepress/dist",
+    "vite:update": "npm outdated && npm update"
   }
 }
