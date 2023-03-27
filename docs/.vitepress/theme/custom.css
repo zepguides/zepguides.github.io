@@ -46,11 +46,14 @@
 --vp-custom-block-tip-text: #687dca;
 --vp-custom-block-tip-bg: #43619b10;
 
---vp-custom-block-details-bg: #1f1f1f34;
+--vp-custom-block-details-bg: #ffffff34;
 
 --vp-custom-block-info-bg: #a5a5a50a;
 
 --vp-custom-block-warning-bg: #e4784609;
 
 --vp-custom-block-danger-bg: #99252507;
+}
+.dark {
+  --vp-custom-block-details-bg: #1f1f1f34;
 }

@@ -15,7 +15,7 @@ const members = [
   {
     avatar: 'https://avatars.githubusercontent.com/u/85186792?v=4',
     name: 'Diso',
-    title: 'Creator and Writer',
+    title: 'Creator',
     links: [
       { icon: 'github', link: 'https://github.com/DisoQ' }
     ]
@@ -23,7 +23,7 @@ const members = [
   {
     avatar: 'https://avatars.githubusercontent.com/u/85960708?v=4',
     name: 'Nixco',
-    title: 'PreSetup Build',
+    title: 'Development Team',
     links: [
       { icon: 'github', link: 'https://github.com/nixco3' }
     ]
@@ -31,7 +31,7 @@ const members = [
   {
     avatar: 'https://avatars.githubusercontent.com/u/125166513?v=4',
     name: 'Lyg',
-    title: 'Writer',
+    title: 'Write Team',
     links: [
       { icon: 'github', link: 'https://github.com/Lygchi' }
     ]
