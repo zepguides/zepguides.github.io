@@ -5,7 +5,7 @@ head:
       content: Una colección de recursos para ayudar a configurar y entender mejor Zeppelin
   - - meta
     - name: og:title
-      content: Zeppelin Guide & Tricks
+      content: Zeppelin Guías y Trucos
 editLink: false
 lastUpdated: false
 outline: [2, 5]
