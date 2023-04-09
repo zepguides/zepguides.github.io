@@ -5,7 +5,6 @@ export default {
   appearance: 'dark',
   base: '/',
   themeConfig: {
-    siteTitle: 'Zeppelin Guide & Tricks',
     logo: {
       src: 'Zep.png',
       alt: 'Logo',
