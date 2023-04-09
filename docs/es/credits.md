@@ -5,7 +5,7 @@ head:
       content: Creditos.
   - - meta
     - name: og:title
-      content: Creditos | Zeppelin Guide & Tricks
+      content: Creditos | Zeppelin Guías y Trucos
 editLink: false
 lastUpdated: false
 ---
