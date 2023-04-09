@@ -23,10 +23,6 @@ export default {
       themeConfig: {
         siteTitle: "Zeppelin Guide & Tricks",
         outlineTitle: "Table Of Content",
-        logo: {
-          src: "Zep.png",
-          alt: "Logo",
-        },
         socialLinks: [{ icon: "github", link: "https://github.com/zepguides" }],
         lastUpdatedText: "Updated Date",
         docFooter: {
@@ -47,10 +43,6 @@ export default {
       themeConfig: {
         siteTitle: "Zeppelin Guías & Trucos",
         outlineTitle: "Tabla de contenido",
-        logo: {
-          src: "Zep.png",
-          alt: "Logo",
-        },
         socialLinks: [{ icon: "github", link: "https://github.com/zepguides" }],
         lastUpdatedText: "Fecha de actualización",
         docFooter: {
