@@ -3,8 +3,9 @@ head:
   - - meta
     - name: og:description
       content: Creditos.
-    - name: description
-      content: Creditos
+  - - meta
+    - name: og:title
+      content: Creditos | Zeppelin Guide & Tricks
 editLink: false
 lastUpdated: false
 ---

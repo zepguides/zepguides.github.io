@@ -3,8 +3,9 @@ head:
   - - meta
     - name: og:description
       content: Short guide to the Workspace
-    - name: description
-      content: Short guide to the Workspace
+  - - meta
+    - name: og:title
+      content: Basic Guide | How To
 title: How to use Zeppelin?
 editLink: false
 lastUpdated: true

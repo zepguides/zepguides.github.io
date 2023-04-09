@@ -3,8 +3,9 @@ head:
   - - meta
     - name: og:description
       content: Guía del espacio de trabajo de Zeppelin
-    - name: description
-      content: Guía del espacio de trabajo de Zeppelin
+  - - meta
+    - name: og:title
+      content: Configuración Avanzada | ¿Cómo usar Zeppelin?
 title: ¿Cómo usar Zeppelin?
 editLink: false
 lastUpdated: true

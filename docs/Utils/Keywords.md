@@ -3,8 +3,9 @@ head:
   - - meta
     - name: og:description
       content: Key combinations that can be used within the editor.
-    - name: description
-      content: Key combinations that can be used within the editor.
+  - - meta
+    - name: og:title
+      content: Keywords | Zeppelin Guide & Tricks
 sidebar_position: 1
 title: Keywords
 ---

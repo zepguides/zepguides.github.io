@@ -3,8 +3,9 @@ head:
   - - meta
     - name: og:description
       content: Credits. Thanks.
-    - name: description
-      content: Credits. Thanks.
+  - - meta
+    - name: og:title
+      content: Credits | Zeppelin Guide & Tricks
 editLink: false
 lastUpdated: false
 ---

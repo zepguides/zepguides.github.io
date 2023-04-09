@@ -3,8 +3,9 @@ head:
   - - meta
     - name: og:description
       content: Combinación de teclas para utilizar en el editor.
-    - name: description
-      content: Combinación de teclas para utilizar en el editor.
+  - - meta
+    - name: og:title
+      content: Combinación de teclas | Zeppelin Guide & Tricks
 sidebar_position: 1
 title: Teclas
 ---
