@@ -23,7 +23,6 @@ export default {
       label: 'English',
       lang: 'en',
       link: '/',
-      head: enHead(),
       title: 'Zeppelin Guide & Tricks',
       themeConfig: {
         siteTitle: 'Zeppelin Guide & Tricks',
@@ -50,7 +49,6 @@ export default {
       label: 'Español',
       lang: 'es',
       link: '/es/',
-      head: esHead(),
       title: 'Zeppelin Guías & Trucos',
       themeConfig: {
         siteTitle: 'Zeppelin Guías & Trucos',
@@ -87,21 +85,8 @@ function mainHead() {
   ];
 }
 
-function enHead() {
-  return [
-    ['meta', { property: 'og:title', content: 'Zeppelin Guide & Tricks' }],
-  ];
-}
-
-function esHead() {
-  return [
-    ['meta', { property: 'og:title', content: 'Zeppelin Guías & Trucos' }],
-  ];
-}
-
 
 // Locales themeConfig
-
 
 /// English
 function enNav() {
