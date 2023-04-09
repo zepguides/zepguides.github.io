@@ -6,8 +6,7 @@ export default {
   base: '/',
   themeConfig: {
     logo: {
-      src: 'Zep.png',
-      alt: 'Logo',
+      src: 'Zep.svg',
     },
     socialLinks: [
       { icon: 'github', link: 'https://github.com/zepguides' },
@@ -80,7 +79,7 @@ function mainHead() {
     ['meta', { property: 'theme-color', content: '#3e62d8' }],
     ['meta', { property: 'og:image', content: `https://cdn.discordapp.com/attachments/1017537991813632111/1081653791574736996/OGImage.png` }],
     ['meta', { name: 'twitter:card', content: 'summary' }],
-    ['link', { rel: 'icon', href: '/Zep.ico' }]
+    ['link', { rel: 'icon', href: '/Zep.png' }]
   ];
 }
 
