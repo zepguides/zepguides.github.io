@@ -16,7 +16,7 @@ const members = [
   {
     avatar: 'https://avatars.githubusercontent.com/u/85186792?v=4',
     name: 'Diso',
-    title: 'Creador',
+    title: 'Creator',
     links: [
       { icon: 'github', link: 'https://github.com/DisoQ' }
     ]
@@ -24,7 +24,7 @@ const members = [
   {
     avatar: 'https://avatars.githubusercontent.com/u/85960708?v=4',
     name: 'Nixco',
-    title: 'Equipo de desarrollo',
+    title: 'Development Team',
     links: [
       { icon: 'github', link: 'https://github.com/nixco3' }
     ]
@@ -32,7 +32,7 @@ const members = [
   {
     avatar: 'https://avatars.githubusercontent.com/u/125166513?v=4',
     name: 'Lyg',
-    title: 'Equipo de escritura',
+    title: 'Write Team',
     links: [
       { icon: 'github', link: 'https://github.com/Lygchi' }
     ]
@@ -40,14 +40,5 @@ const members = [
 ]
 </script>
 
-# Gracias
-<p>Este proyecto ha sido complejo de desarrollar, sobre todo por la falta de tiempo, pero ha sido llevado a cabo para ofrecer el mejor resultado a la comunidad.</p>
-
-## Creditos
-|Imagen | Nombre | Descripción|
-|:-:|:-:|:-|
-<img src="https://avatars.githubusercontent.com/u/6128107?s=200&v=4" alt="Vue Logo" width="48"/> | [VitePress](https://github.com/vuejs/vitepress) | Static Site Generator |
-<img src="https://avatars.githubusercontent.com/u/96340112?s=200&v=4" alt="Zep Logo" width="48"/>| [Zeppelin](https://zeppelin.gg/) | El bot
-
-## Equipo de escritura, desarrollo y diseño
+## Equipo de desarrollo, diseño y escritura
 <VPTeamMembers size="medium" :members="members" />

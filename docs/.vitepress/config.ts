@@ -73,8 +73,16 @@ function mainHead() {
 /// English
 function enNav() {
   return [
-    { text: "Guides", link: "/" },
-    { text: "Legacy PreSetup", link: "https://zepguides.github.io/presetup/" },
+    { text: "Home", link: "/" },
+    { text: "Reference", link: "/reference/" },
+    { text: "Legacy PreSetup", link: "https://zepguides.github.io/presetup/" }, 
+    { text: "Infrastructure", link: "/infrastructure/" },
+    { text: 'Contribution',
+      items: [
+        { text: 'Guide', link: '/contribution/' },
+        { text: 'Credits', link: '/contribution/credits' },
+      ]
+    }
   ];
 }
 
@@ -82,49 +90,7 @@ function enSidebar() {
   return [
     {
       text: "",
-      items: [{ text: "Introduction", link: "/" }],
-    },
-    {
-      text: "Guides",
-      items: [
-        {
-          text: "Basic",
-          collapsed: true,
-          items: [
-            { text: "Introduction", link: "/Guides/Basic/" },
-            { text: "How To Zeppelin", link: "/Guides/Basic/HowTo" },
-            { text: "Plugins", link: "/Guides/Basic/Plugins" },
-            { text: "Configuration", link: "/Guides/Basic/Complete-Config" },
-          ],
-        },
-        {
-          text: "Medium",
-          collapsed: true,
-          items: [
-            { text: "Introduction", link: "/Guides/Medium/" },
-            { text: "Plugins", link: "/Guides/Medium/Plugins" },
-            { text: "Configuration", link: "/Guides/Medium/Complete-Config" },
-          ],
-        },
-        {
-          text: "Advanced",
-          collapsed: true,
-          items: [
-            { text: "Introduction", link: "/Guides/Advanced/" },
-            { text: "Plugins", link: "/Guides/Advanced/Plugins" },
-            { text: "Configuration", link: "/Guides/Advanced/Complete-Config" },
-          ],
-        },
-      ],
-    },
-    {
-      text: "Utils",
-      collapsed: true,
-      items: [{ text: "Keywords", link: "/Utils/Keywords" }],
-    },
-    {
-      text: "",
-      items: [{ text: "Credits", link: "/credits" }],
+      items: [{ text: "Home", link: "/" }],
     },
   ];
 }
@@ -132,8 +98,16 @@ function enSidebar() {
 /// Español
 function esNav() {
   return [
-    { text: "Guías", link: "/es/" },
-    { text: "Legacy PreSetup", link: "https://zepguides.github.io/presetup/" },
+    { text: "Inicio", link: "/es/" },
+    { text: "Referencia", link: "/es/reference/" },
+    { text: "Legacy PreSetup", link: "https://zepguides.github.io/presetup/" }, 
+    { text: "Infraestructura", link: "/es/infrastructure/" },
+    { text: 'Contribución',
+      items: [
+        { text: 'Guía', link: '/es/contribution/' },
+        { text: 'Creditos', link: '/es/contribution/credits' },
+      ]
+    }
   ];
 }
 
@@ -141,55 +115,7 @@ function esSidebar() {
   return [
     {
       text: "",
-      items: [{ text: "Introducción", link: "/es/" }],
-    },
-    {
-      text: "Guías",
-      items: [
-        {
-          text: "Basica",
-          collapsed: true,
-          items: [
-            { text: "Introducción", link: "/es/Guides/Basic/" },
-            { text: "¿Cómo usar Zeppelin?", link: "/es/Guides/Basic/HowTo" },
-            { text: "Plugins", link: "/es/Guides/Basic/Plugins" },
-            { text: "Configuración", link: "/es/Guides/Basic/Complete-Config" },
-          ],
-        },
-        {
-          text: "Media",
-          collapsed: true,
-          items: [
-            { text: "Introducción", link: "/es/Guides/Medium/" },
-            { text: "Plugins", link: "/es/Guides/Medium/Plugins" },
-            {
-              text: "Configuración",
-              link: "/es/Guides/Medium/Complete-Config",
-            },
-          ],
-        },
-        {
-          text: "Avanzada",
-          collapsed: true,
-          items: [
-            { text: "Introducción", link: "/es/Guides/Advanced/" },
-            { text: "Plugins", link: "/es/Guides/Advanced/Plugins" },
-            {
-              text: "Configuración",
-              link: "/es/Guides/Advanced/Complete-Config",
-            },
-          ],
-        },
-      ],
-    },
-    {
-      text: "Utiles",
-      collapsed: true,
-      items: [{ text: "Keywords", link: "/es/Utils/Keywords" }],
-    },
-    {
-      text: "",
-      items: [{ text: "Creditos", link: "/es/credits" }],
-    },
+      items: [{ text: "Inicio", link: "/es/" }],
+    }
   ];
 }
