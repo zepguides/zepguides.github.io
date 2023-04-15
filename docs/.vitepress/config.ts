@@ -33,39 +33,10 @@ export default {
         returnToTopLabel: "Go to ☝️",
         nav: enNav(),
         sidebar: {
-          '/main/': [
-            {
-              text: ' ',
-              items: [
-                { text: 'Home', link: '/main/' },
-              ]
-            }
-          ],
-          '/reference/': [
-            {
-              text: 'Global Reference',
-              items: [
-                { text: 'Introduction', link: '/reference/' },
-              ]
-            }
-          ],
-          '/infrastructure/': [
-            {
-              text: 'Infrastructure explain',
-              items: [
-                { text: 'Introduction', link: '/infrastructure/' },
-              ]
-            }
-          ],
-          '/contribution/': [
-            {
-              text: 'Contribution Guide',
-              items: [
-                { text: 'GitHub', link: '/contribution/' },
-                { text: 'Credits', link: '/contribution/credits' },
-              ]
-            }
-          ],
+          '/main/': Main(),
+          '/reference/': Reference(),
+          '/infrastructure/': Infrastructure(),
+          '/contribution/': Contribution(),
         },
       },
     },
@@ -87,39 +58,10 @@ export default {
         returnToTopLabel: "Ir ☝️",
         nav: esNav(),
         sidebar: {
-          '/es/main/': [
-            {
-              text: ' ',
-              items: [
-                { text: 'Inicio', link: '/es/main/' },
-              ]
-            }
-          ],
-          '/es/reference/': [
-            {
-              text: 'Referencia Global',
-              items: [
-                { text: 'Introducción', link: '/es/reference/' },
-              ]
-            }
-          ],
-          '/es/infrastructure/': [
-            {
-              text: 'Explicación de infraestructura',
-              items: [
-                { text: 'Introducción', link: '/es/infrastructure/' },
-              ]
-            }
-          ],
-          '/es/contribution/': [
-            {
-              text: 'Guía de Contribución',
-              items: [
-                { text: 'GitHub', link: '/es/contribution/' },
-                { text: 'Creditos', link: '/es/contribution/credits' },
-              ]
-            }
-          ],
+          '/es/main/': MainEs(),
+          '/es/reference/': ReferenceEs(),
+          '/es/infrastructure/': InfrastructureEs(),
+          '/es/contribution/': ContributionEs(),
         },
       },
     },
@@ -136,7 +78,7 @@ function mainHead() {
   ];
 }
 
-// Locales themeConfig
+// Locales themeConfig: nav
 
 /// English
 function enNav() {
@@ -170,3 +112,97 @@ function esNav() {
   ];
 }
 
+
+// Locales themeConfig: sidebar
+
+/// English
+function Main() {
+  return [
+    {
+      text: ' ',
+      items: [
+        { text: 'Home', link: '/main/' },
+      ]
+    }
+  ];
+}
+
+function Reference() {
+  return [
+    {
+      text: 'Global Reference',
+      items: [
+        { text: 'Introduction', link: '/reference/' },
+      ]
+    }
+  ];
+}
+
+function Infrastructure() {
+  return [
+    {
+      text: 'Infrastructure explain',
+      items: [
+        { text: 'Introduction', link: '/infrastructure/' },
+      ]
+    }
+  ];
+}
+
+function Contribution() {
+  return [
+    {
+      text: 'Contribution Guide',
+      items: [
+        { text: 'GitHub', link: '/contribution/' },
+        { text: 'Credits', link: '/contribution/credits' },
+      ]
+    }
+  ];
+}
+
+/// Español
+function MainEs() {
+  return [
+    {
+      text: ' ',
+      items: [
+        { text: 'Inicio', link: '/es/main/' },
+      ]
+    }
+  ];
+}
+
+function ReferenceEs() {
+  return [
+    {
+      text: 'Referencia Global',
+      items: [
+        { text: 'Introducción', link: '/es/reference/' },
+      ]
+    }
+  ];
+}
+
+function InfrastructureEs() {
+  return [
+    {
+      text: 'Explicación de infraestructura',
+      items: [
+        { text: 'Introducción', link: '/es/infrastructure/' },
+      ]
+    }
+  ];
+}
+
+function ContributionEs() {
+  return [
+    {
+      text: 'Guía de Contribución',
+      items: [
+        { text: 'GitHub', link: '/es/contribution/' },
+        { text: 'Creditos', link: '/es/contribution/credits' },
+      ]
+    }
+  ];
+}
