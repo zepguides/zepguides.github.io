@@ -10,16 +10,16 @@ hero:
   actions:
     - theme: brand
       text: Inicio
-      link: /main/
+      link: /es/main/
     - theme: alt
       text: Referencia
-      link: /reference/
+      link: /es/reference/
     - theme: alt
       text: Infraestructura
-      link: /infrastructure/
+      link: /es/infrastructure/
     - theme: alt
       text: Contribución
-      link: /contribution/
+      link: /es/contribution/
 
 
 features:
