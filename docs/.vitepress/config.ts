@@ -32,7 +32,41 @@ export default {
         darkModeSwitchLabel: "Switch Theme",
         returnToTopLabel: "Go to ☝️",
         nav: enNav(),
-        sidebar: enSidebar(),
+        sidebar: {
+          '/main/': [
+            {
+              text: ' ',
+              items: [
+                { text: 'Home', link: '/main/' },
+              ]
+            }
+          ],
+          '/reference/': [
+            {
+              text: 'Global Reference',
+              items: [
+                { text: 'Introduction', link: '/reference/' },
+              ]
+            }
+          ],
+          '/infrastructure/': [
+            {
+              text: 'Infrastructure explain',
+              items: [
+                { text: 'Introduction', link: '/infrastructure/' },
+              ]
+            }
+          ],
+          '/contribution/': [
+            {
+              text: 'Contribution Guide',
+              items: [
+                { text: 'GitHub', link: '/contribution/' },
+                { text: 'Credits', link: '/contribution/credits' },
+              ]
+            }
+          ],
+        },
       },
     },
     es: {
@@ -52,7 +86,41 @@ export default {
         darkModeSwitchLabel: "Cambiar Tema",
         returnToTopLabel: "Ir ☝️",
         nav: esNav(),
-        sidebar: esSidebar(),
+        sidebar: {
+          '/es/main/': [
+            {
+              text: ' ',
+              items: [
+                { text: 'Inicio', link: '/es/main/' },
+              ]
+            }
+          ],
+          '/es/reference/': [
+            {
+              text: 'Referencia Global',
+              items: [
+                { text: 'Introducción', link: '/es/reference/' },
+              ]
+            }
+          ],
+          '/es/infrastructure/': [
+            {
+              text: 'Explicación de infraestructura',
+              items: [
+                { text: 'Introducción', link: '/es/infrastructure/' },
+              ]
+            }
+          ],
+          '/es/contribution/': [
+            {
+              text: 'Guía de Contribución',
+              items: [
+                { text: 'GitHub', link: '/es/contribution/' },
+                { text: 'Creditos', link: '/es/contribution/credits' },
+              ]
+            }
+          ],
+        },
       },
     },
   },
@@ -73,7 +141,7 @@ function mainHead() {
 /// English
 function enNav() {
   return [
-    { text: "Home", link: "/" },
+    { text: "Home", link: "/main/" },
     { text: "Reference", link: "/reference/" },
     { text: "Legacy PreSetup", link: "https://zepguides.github.io/presetup/" }, 
     { text: "Infrastructure", link: "/infrastructure/" },
@@ -86,19 +154,10 @@ function enNav() {
   ];
 }
 
-function enSidebar() {
-  return [
-    {
-      text: "",
-      items: [{ text: "Home", link: "/" }],
-    },
-  ];
-}
-
 /// Español
 function esNav() {
   return [
-    { text: "Inicio", link: "/es/" },
+    { text: "Inicio", link: "/es/main/" },
     { text: "Referencia", link: "/es/reference/" },
     { text: "Legacy PreSetup", link: "https://zepguides.github.io/presetup/" }, 
     { text: "Infraestructura", link: "/es/infrastructure/" },
@@ -111,11 +170,3 @@ function esNav() {
   ];
 }
 
-function esSidebar() {
-  return [
-    {
-      text: "",
-      items: [{ text: "Inicio", link: "/es/" }],
-    }
-  ];
-}
