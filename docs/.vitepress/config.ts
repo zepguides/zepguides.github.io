@@ -1,3 +1,5 @@
+// import { defineConfig } from 'vitepress'
+
 export default {
   head: mainHead(),
   title: "Zeppelin Guide & Tricks",
