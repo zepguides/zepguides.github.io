@@ -15,6 +15,29 @@ export default {
       prev: "⬅️",
       next: "➡️",
     },
+
+    search: {
+      provider: 'local',
+      options: {
+        locales: {
+          root: {
+            translations: {
+              button: {
+                buttonText: 'Search'
+              }
+            }
+          },
+          es: {
+            translations: {
+              button: {
+                buttonText: 'Buscar'
+              }
+            }
+          }
+        }
+      }
+    }
+
   },
   locales: {
     root: {
@@ -206,11 +229,5 @@ function ContributionEs() {
         { text: 'Creditos', link: '/es/contribution/credits' },
       ]
     }
-  ];
-}
-
-function search() {
-  return [
-
   ];
 }
