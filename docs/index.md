@@ -1,4 +1,12 @@
 ---
+head:
+  - - meta
+    - name: og:description
+      content: A collection of resources to help you set up and better understand Zeppelin
+  - - meta
+    - name: og:title
+      content: Zeppelin Guide & Tricks
+
 layout: home
 
 hero:
