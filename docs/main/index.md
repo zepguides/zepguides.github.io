@@ -6,9 +6,6 @@ head:
   - - meta
     - name: og:title
       content: Zeppelin Guide & Tricks
-editLink: false
-lastUpdated: false
-outline: [2, 5]
 ---
 ![Banner](/assets/ZepTricks.png)
 
