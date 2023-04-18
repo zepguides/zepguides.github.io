@@ -7,6 +7,7 @@ export default {
   appearance: "dark",
   base: "/",
   themeConfig: {
+    outline: [2, 5],
     logo: {
       src: "Zep.svg",
     },
