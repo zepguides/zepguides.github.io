@@ -2,10 +2,10 @@
 head:
   - - meta
     - name: og:description
-      content: A collection of resources to help you set up and better understand Zeppelin
+      content: Una colección de recursos para ayudarle a configurar y comprender mejor Zeppelin
   - - meta
     - name: og:title
-      content: Zeppelin Guide & Tricks
+      content: Zeppelin Guías y Trucos
 ---
 ![Banner](/assets/ZepTricks.png)
 
