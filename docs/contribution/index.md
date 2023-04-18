@@ -2,7 +2,7 @@
 head:
   - - meta
     - name: og:description
-      content: Contribution Guide
+      content: A basic guide to third-party contributions.
   - - meta
     - name: og:title
       content: Contribution Guide | Zeppelin Guide & Tricks
