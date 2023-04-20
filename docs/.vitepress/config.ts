@@ -18,47 +18,46 @@ export default {
     },
 
     search: {
-      provider: 'local',
+      provider: "local",
       options: {
         locales: {
           root: {
             translations: {
               button: {
-                buttonText: 'Buscar',
-                buttonAriaLabel: 'Buscar documentos'
+                buttonText: "Buscar",
+                buttonAriaLabel: "Buscar documentos",
               },
               modal: {
-                noResultsText: 'No se encontraron resultados',
-                resetButtonTitle: 'Borrar criterio de búsqueda',
+                noResultsText: "No se encontraron resultados",
+                resetButtonTitle: "Borrar criterio de búsqueda",
                 footer: {
-                  navigateText: 'para navegar',
-                  selectText: 'para seleccionar',
-                  closeText: 'para cerrar'
-                }
-              }
-            }
+                  navigateText: "para navegar",
+                  selectText: "para seleccionar",
+                  closeText: "para cerrar",
+                },
+              },
+            },
           },
           es: {
             translations: {
               button: {
-                buttonText: 'Buscar',
-                buttonAriaLabel: 'Buscar documentos'
+                buttonText: "Buscar",
+                buttonAriaLabel: "Buscar documentos",
               },
               modal: {
-                noResultsText: 'No se encontraron resultados',
-                resetButtonTitle: 'Borrar criterio de búsqueda',
+                noResultsText: "No se encontraron resultados",
+                resetButtonTitle: "Borrar criterio de búsqueda",
                 footer: {
-                  navigateText: 'para navegar',
-                  selectText: 'para seleccionar',
-                  closeText: 'para cerrar'
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-
+                  navigateText: "para navegar",
+                  selectText: "para seleccionar",
+                  closeText: "para cerrar",
+                },
+              },
+            },
+          },
+        },
+      },
+    },
   },
   locales: {
     root: {
@@ -79,10 +78,10 @@ export default {
         returnToTopLabel: "Go to ☝️",
         nav: enNav(),
         sidebar: {
-          '/main/': Main(),
-          '/reference/': Reference(),
-          '/infrastructure/': Infrastructure(),
-          '/contribution/': Contribution(),
+          "/main/": Main(),
+          "/reference/": Reference(),
+          "/infrastructure/": Infrastructure(),
+          "/contribution/": Contribution(),
         },
       },
     },
@@ -104,10 +103,10 @@ export default {
         returnToTopLabel: "Ir ☝️",
         nav: esNav(),
         sidebar: {
-          '/es/main/': MainEs(),
-          '/es/reference/': ReferenceEs(),
-          '/es/infrastructure/': InfrastructureEs(),
-          '/es/contribution/': ContributionEs(),
+          "/es/main/": MainEs(),
+          "/es/reference/": ReferenceEs(),
+          "/es/infrastructure/": InfrastructureEs(),
+          "/es/contribution/": ContributionEs(),
         },
       },
     },
@@ -118,7 +117,13 @@ export default {
 function mainHead() {
   return [
     ["meta", { property: "theme-color", content: "#3e62d8" }],
-    ["meta", { property: "og:image", content: `https://cdn.discordapp.com/attachments/1017537991813632111/1081653791574736996/OGImage.png`, },],
+    [
+      "meta",
+      {
+        property: "og:image",
+        content: `https://cdn.discordapp.com/attachments/1017537991813632111/1081653791574736996/OGImage.png`,
+      },
+    ],
     ["meta", { name: "twitter:card", content: "summary" }],
     ["link", { rel: "icon", href: "/Zep.png" }],
   ];
@@ -131,14 +136,15 @@ function enNav() {
   return [
     { text: "Home", link: "/main/" },
     { text: "Reference", link: "/reference/" },
-    { text: "Legacy PreSetup", link: "https://zepguides.github.io/presetup/" }, 
+    { text: "Legacy PreSetup", link: "https://zepguides.github.io/presetup/" },
     { text: "Infrastructure", link: "/infrastructure/" },
-    { text: 'Contribution',
+    {
+      text: "Contribution",
       items: [
-        { text: 'Guide', link: '/contribution/' },
-        { text: 'Credits', link: '/contribution/credits' },
-      ]
-    }
+        { text: "Guide", link: "/contribution/" },
+        { text: "Credits", link: "/contribution/credits" },
+      ],
+    },
   ];
 }
 
@@ -147,17 +153,17 @@ function esNav() {
   return [
     { text: "Inicio", link: "/es/main/" },
     { text: "Referencia", link: "/es/reference/" },
-    { text: "Legacy PreSetup", link: "https://zepguides.github.io/presetup/" }, 
+    { text: "Legacy PreSetup", link: "https://zepguides.github.io/presetup/" },
     { text: "Infraestructura", link: "/es/infrastructure/" },
-    { text: 'Contribución',
+    {
+      text: "Contribución",
       items: [
-        { text: 'Guía', link: '/es/contribution/' },
-        { text: 'Creditos', link: '/es/contribution/credits' },
-      ]
-    }
+        { text: "Guía", link: "/es/contribution/" },
+        { text: "Creditos", link: "/es/contribution/credits" },
+      ],
+    },
   ];
 }
-
 
 // Locales themeConfig: sidebar
 
@@ -165,45 +171,39 @@ function esNav() {
 function Main() {
   return [
     {
-      text: ' ',
-      items: [
-        { text: 'Home', link: '/main/' },
-      ]
-    }
+      text: " ",
+      items: [{ text: "Home", link: "/main/" }],
+    },
   ];
 }
 
 function Reference() {
   return [
     {
-      text: 'Global Reference',
-      items: [
-        { text: 'Introduction', link: '/reference/' },
-      ]
-    }
+      text: "Global Reference",
+      items: [{ text: "Introduction", link: "/reference/" }],
+    },
   ];
 }
 
 function Infrastructure() {
   return [
     {
-      text: 'Infrastructure explain',
-      items: [
-        { text: 'Introduction', link: '/infrastructure/' },
-      ]
-    }
+      text: "Infrastructure explain",
+      items: [{ text: "Introduction", link: "/infrastructure/" }],
+    },
   ];
 }
 
 function Contribution() {
   return [
     {
-      text: 'Contribution Guide',
+      text: "Contribution Guide",
       items: [
-        { text: 'GitHub', link: '/contribution/' },
-        { text: 'Credits', link: '/contribution/credits' },
-      ]
-    }
+        { text: "GitHub", link: "/contribution/" },
+        { text: "Credits", link: "/contribution/credits" },
+      ],
+    },
   ];
 }
 
@@ -211,45 +211,39 @@ function Contribution() {
 function MainEs() {
   return [
     {
-      text: ' ',
-      items: [
-        { text: 'Inicio', link: '/es/main/' },
-      ]
-    }
+      text: " ",
+      items: [{ text: "Inicio", link: "/es/main/" }],
+    },
   ];
 }
 
 function ReferenceEs() {
   return [
     {
-      text: 'Referencia Global',
-      items: [
-        { text: 'Introducción', link: '/es/reference/' },
-      ]
-    }
+      text: "Referencia Global",
+      items: [{ text: "Introducción", link: "/es/reference/" }],
+    },
   ];
 }
 
 function InfrastructureEs() {
   return [
     {
-      text: 'Explicación de infraestructura',
-      items: [
-        { text: 'Introducción', link: '/es/infrastructure/' },
-      ]
-    }
+      text: "Explicación de infraestructura",
+      items: [{ text: "Introducción", link: "/es/infrastructure/" }],
+    },
   ];
 }
 
 function ContributionEs() {
   return [
     {
-      text: 'Guía de Contribución',
+      text: "Guía de Contribución",
       items: [
-        { text: 'GitHub', link: '/es/contribution/' },
-        { text: 'Creditos', link: '/es/contribution/credits' },
-      ]
-    }
+        { text: "GitHub", link: "/es/contribution/" },
+        { text: "Creditos", link: "/es/contribution/credits" },
+      ],
+    },
   ];
 }
 
