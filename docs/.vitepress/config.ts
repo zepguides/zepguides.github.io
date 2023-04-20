@@ -24,14 +24,34 @@ export default {
           root: {
             translations: {
               button: {
-                buttonText: 'Search'
+                buttonText: 'Buscar',
+                buttonAriaLabel: 'Buscar documentos'
+              },
+              modal: {
+                noResultsText: 'No se encontraron resultados',
+                resetButtonTitle: 'Borrar criterio de búsqueda',
+                footer: {
+                  navigateText: 'para navegar',
+                  selectText: 'para seleccionar',
+                  closeText: 'para cerrar'
+                }
               }
             }
           },
           es: {
             translations: {
               button: {
-                buttonText: 'Buscar'
+                buttonText: 'Buscar',
+                buttonAriaLabel: 'Buscar documentos'
+              },
+              modal: {
+                noResultsText: 'No se encontraron resultados',
+                resetButtonTitle: 'Borrar criterio de búsqueda',
+                footer: {
+                  navigateText: 'para navegar',
+                  selectText: 'para seleccionar',
+                  closeText: 'para cerrar'
+                }
               }
             }
           }
@@ -232,3 +252,51 @@ function ContributionEs() {
     }
   ];
 }
+
+// Search Locales
+
+/// English (root)
+//function SearchEn() {
+//  return [
+//    {
+//      translations: {
+//        button: {
+//          buttonText: 'Search',
+//          buttonAriaLabel: 'Search Documents'
+//        },
+//        modal: {
+//          noResultsText: 'Related results could not be found',
+//          resetButtonTitle: 'Clear search criteria',
+//          footer: {
+//            navigateText: 'to navigate',
+//            selectText: 'to select',
+//            closeText: 'to close'
+//          }
+//        }
+//      }
+//    }
+//  ];
+//}
+
+/// Español
+// function SearchEs() {
+//  return [
+//    {
+//      translations: {
+//        button: {
+//          buttonText: 'Buscar',
+//          buttonAriaLabel: 'Buscar documentos'
+//        },
+//        modal: {
+//          noResultsText: 'No se encontraron resultados',
+//          resetButtonTitle: 'Borrar criterio de búsqueda',
+//          footer: {
+//            navigateText: 'para navegar',
+//            selectText: 'para seleccionar',
+//            closeText: 'para cerrar'
+//          }
+//        }
+//      }
+//    }
+//  ];
+//}
