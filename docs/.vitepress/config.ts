@@ -24,16 +24,16 @@ export default {
           root: {
             translations: {
               button: {
-                buttonText: "Buscar",
-                buttonAriaLabel: "Buscar documentos",
+                buttonText: "Search",
+                buttonAriaLabel: "Search Documents",
               },
               modal: {
-                noResultsText: "No se encontraron resultados",
-                resetButtonTitle: "Borrar criterio de búsqueda",
+                noResultsText: "Related results could not be found",
+                resetButtonTitle: "Clear search criteria",
                 footer: {
-                  navigateText: "para navegar",
-                  selectText: "para seleccionar",
-                  closeText: "para cerrar",
+                  navigateText: "to navigate",
+                  selectText: "to select",
+                  closeText: "to close",
                 },
               },
             },
