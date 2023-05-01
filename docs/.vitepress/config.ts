@@ -1,7 +1,7 @@
 // import { defineConfig } from 'vitepress'
 
 export default {
-  head: mainHead(),
+  head: metadata(),
   title: "Zeppelin Guide & Tricks",
   cleanUrls: true,
   appearance: "dark",
@@ -114,7 +114,7 @@ export default {
 };
 
 // Metadata
-function mainHead() {
+function metadata() {
   return [
     ["meta", { property: "theme-color", content: "#3e62d8" }],
     [
