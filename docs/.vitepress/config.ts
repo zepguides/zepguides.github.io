@@ -209,6 +209,23 @@ function Infrastructure() {
       text: "Infrastructure explain",
       items: [{ text: "Introduction", link: "/infrastructure/" }],
     },
+    {
+      text: "Functions",
+      items: [
+        {
+          text: "Write Team",
+          link: "/infrastructure/functions/write-team",
+        },
+        {
+          text: "Improvement Team",
+          link: "/infrastructure/functions/improvement-team",
+        },
+      ],
+    },
+    {
+      text: "Structures",
+      items: [{ text: "General", link: "/infrastructure/structures/" }],
+    },
   ];
 }
 
@@ -248,6 +265,23 @@ function InfrastructureEs() {
     {
       text: "Explicación de infraestructura",
       items: [{ text: "Introducción", link: "/es/infrastructure/" }],
+    },
+    {
+      text: "Funciones",
+      items: [
+        {
+          text: "Equipo de escritura",
+          link: "/es/infrastructure/functions/write-team",
+        },
+        {
+          text: "Equipo de desarrollo",
+          link: "/es/infrastructure/functions/improvement-team",
+        },
+      ],
+    },
+    {
+      text: "Estructuras",
+      items: [{ text: "General", link: "/es/infrastructure/structures/" }],
     },
   ];
 }
