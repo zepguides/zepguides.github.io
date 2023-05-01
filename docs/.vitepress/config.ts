@@ -200,6 +200,48 @@ function Reference() {
       text: "Global Reference",
       items: [{ text: "Introduction", link: "/reference/" }],
     },
+    {
+      text: "Plugins",
+      collapsed: true,
+      items: [
+        { text: "Autodelete", link: "/reference/plugins/autodelete" },
+        { text: "Automod", link: "/reference/plugins/automod" },
+        { text: "Auto Reactions", link: "/reference/plugins/autoreactions" },
+        { text: "Cases", link: "/reference/plugins/cases" },
+        { text: "Counters", link: "/reference/plugins/counters" },
+        { text: "Legacy Plugins", link: "/reference/plugins/legacy-plugins" },
+        { text: "Logs", link: "/reference/plugins/logs" },
+        { text: "Mod Actions", link: "/reference/plugins/mod-actions" },
+        { text: "Mutes", link: "/reference/plugins/mutes" },
+        { text: "Persist", link: "/reference/plugins/persist" },
+        { text: "Phisherman", link: "/reference/plugins/phisherman" },
+        { text: "Post", link: "/reference/plugins/post" },
+        { text: "Reminders", link: "/reference/plugins/reminders" },
+        { text: "Role Buttons", link: "/reference/plugins/role-buttons" },
+        { text: "Roles", link: "/reference/plugins/roles" },
+        { text: "Self grantable Roles", link: "/reference/plugins/self-roles" },
+        { text: "Slowmode", link: "/reference/plugins/slowmode" },
+        { text: "Starboard", link: "/reference/plugins/starboard" },
+        { text: "Tags", link: "/reference/plugins/tags" },
+        { text: "Time and Date", link: "/reference/plugins/time-and-date" },
+        { text: "Utility", link: "/reference/plugins/utility" },
+        {
+          text: "Welcome Messages",
+          link: "/reference/plugins/welcome-messages",
+        },
+      ],
+    },
+    {
+      text: "Overrides",
+      items: [
+        { text: "Individual", link: "/reference/overrides/individual" },
+        { text: "Combine", link: "/reference/overrides/combined" },
+      ],
+    },
+    {
+      text: " ",
+      items: [{ text: "Custom Automod", link: "/reference/automod-custom" }],
+    },
   ];
 }
 
@@ -256,6 +298,56 @@ function ReferenceEs() {
     {
       text: "Referencia Global",
       items: [{ text: "Introducción", link: "/es/reference/" }],
+    },
+    {
+      text: "Plugins",
+      collapsed: true,
+      items: [
+        { text: "Autodelete", link: "/es/reference/plugins/autodelete" },
+        { text: "Automod", link: "/es/reference/plugins/automod" },
+        { text: "Auto Reactions", link: "/es/reference/plugins/autoreactions" },
+        { text: "Cases", link: "/es/reference/plugins/cases" },
+        { text: "Counters", link: "/es/reference/plugins/counters" },
+        {
+          text: "Legacy Plugins",
+          link: "/es/reference/plugins/legacy-plugins",
+        },
+        { text: "Logs", link: "/es/reference/plugins/logs" },
+        { text: "Mod Actions", link: "/es/reference/plugins/mod-actions" },
+        { text: "Mutes", link: "/es/reference/plugins/mutes" },
+        { text: "Persist", link: "/es/reference/plugins/persist" },
+        { text: "Phisherman", link: "/es/reference/plugins/phisherman" },
+        { text: "Post", link: "/es/reference/plugins/post" },
+        { text: "Reminders", link: "/es/reference/plugins/reminders" },
+        { text: "Role Buttons", link: "/es/reference/plugins/role-buttons" },
+        { text: "Roles", link: "/es/reference/plugins/roles" },
+        {
+          text: "Self grantable Roles",
+          link: "/es/reference/plugins/self-roles",
+        },
+        { text: "Slowmode", link: "/es/reference/plugins/slowmode" },
+        { text: "Starboard", link: "/es/reference/plugins/starboard" },
+        { text: "Tags", link: "/es/reference/plugins/tags" },
+        { text: "Time and Date", link: "/es/reference/plugins/time-and-date" },
+        { text: "Utility", link: "/es/reference/plugins/utility" },
+        {
+          text: "Welcome Messages",
+          link: "/es/reference/plugins/welcome-messages",
+        },
+      ],
+    },
+    {
+      text: "Overrides",
+      items: [
+        { text: "Individuales", link: "/es/reference/overrides/individual" },
+        { text: "Combinados", link: "/es/reference/overrides/combined" },
+      ],
+    },
+    {
+      text: " ",
+      items: [
+        { text: "Automod personalizado", link: "/es/reference/automod-custom" },
+      ],
     },
   ];
 }
