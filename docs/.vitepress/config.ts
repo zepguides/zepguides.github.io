@@ -153,7 +153,10 @@ function esNav() {
   return [
     { text: "Inicio", link: "/es/main/" },
     { text: "Referencia", link: "/es/reference/" },
-    { text: "Legacy PreSetup", link: "https://zepguides.github.io/presetup/" },
+    {
+      text: "Legacy PreSetup",
+      link: "https://zepguides.github.io/presetup/es/",
+    },
     { text: "Infraestructura", link: "/es/infrastructure/" },
     {
       text: "Contribución",
