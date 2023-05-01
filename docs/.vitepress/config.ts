@@ -134,12 +134,17 @@ function mainHead() {
 /// English
 function enNav() {
   return [
-    { text: "Home", link: "/main/" },
-    { text: "Reference", link: "/reference/" },
+    { text: "Home", link: "/main/", activeMatch: "/main" },
+    { text: "Reference", link: "/reference/", activeMatch: "/reference" },
     { text: "Legacy PreSetup", link: "https://zepguides.github.io/presetup/" },
-    { text: "Infrastructure", link: "/infrastructure/" },
+    {
+      text: "Infrastructure",
+      link: "/infrastructure/",
+      activeMatch: "/infrastructure",
+    },
     {
       text: "Contribution",
+      activeMatch: "/contribution",
       items: [
         { text: "Guide", link: "/contribution/" },
         { text: "Credits", link: "/contribution/credits" },
@@ -151,15 +156,24 @@ function enNav() {
 /// Español
 function esNav() {
   return [
-    { text: "Inicio", link: "/es/main/" },
-    { text: "Referencia", link: "/es/reference/" },
+    { text: "Inicio", link: "/es/main/", activeMatch: "/es/main" },
+    {
+      text: "Referencia",
+      link: "/es/reference/",
+      activeMatch: "/es/reference",
+    },
     {
       text: "Legacy PreSetup",
       link: "https://zepguides.github.io/presetup/es/",
     },
-    { text: "Infraestructura", link: "/es/infrastructure/" },
+    {
+      text: "Infraestructura",
+      link: "/es/infrastructure/",
+      activeMatch: "/es/infrastructure",
+    },
     {
       text: "Contribución",
+      activeMatch: "/es/contribution",
       items: [
         { text: "Guía", link: "/es/contribution/" },
         { text: "Creditos", link: "/es/contribution/credits" },
@@ -249,51 +263,3 @@ function ContributionEs() {
     },
   ];
 }
-
-// Search Locales
-
-/// English (root)
-//function SearchEn() {
-//  return [
-//    {
-//      translations: {
-//        button: {
-//          buttonText: 'Search',
-//          buttonAriaLabel: 'Search Documents'
-//        },
-//        modal: {
-//          noResultsText: 'Related results could not be found',
-//          resetButtonTitle: 'Clear search criteria',
-//          footer: {
-//            navigateText: 'to navigate',
-//            selectText: 'to select',
-//            closeText: 'to close'
-//          }
-//        }
-//      }
-//    }
-//  ];
-//}
-
-/// Español
-// function SearchEs() {
-//  return [
-//    {
-//      translations: {
-//        button: {
-//          buttonText: 'Buscar',
-//          buttonAriaLabel: 'Buscar documentos'
-//        },
-//        modal: {
-//          noResultsText: 'No se encontraron resultados',
-//          resetButtonTitle: 'Borrar criterio de búsqueda',
-//          footer: {
-//            navigateText: 'para navegar',
-//            selectText: 'para seleccionar',
-//            closeText: 'para cerrar'
-//          }
-//        }
-//      }
-//    }
-//  ];
-//}
