@@ -248,7 +248,7 @@ function Reference() {
 function Infrastructure() {
   return [
     {
-      text: "Infrastructure explain",
+      text: "Project Infrastructure",
       items: [{ text: "Introduction", link: "/infrastructure/" }],
     },
     {
@@ -355,7 +355,7 @@ function ReferenceEs() {
 function InfrastructureEs() {
   return [
     {
-      text: "Explicación de infraestructura",
+      text: "Infraestructura del proyecto",
       items: [{ text: "Introducción", link: "/es/infrastructure/" }],
     },
     {
