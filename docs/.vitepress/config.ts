@@ -257,7 +257,7 @@ function Main() {
     {
       text: " ",
       items: [
-        { text: "Reference", link: "/reference/" },
+        { text: "Global Reference", link: "/reference/" },
         { text: "Infrastructure", link: "/infrastructure/" },
         { text: "Contribution Guide", link: "/contribution/" },
       ],
@@ -359,33 +359,33 @@ function MainEs() {
   return [
     {
       text: " ",
-      items: [{ text: "🏘️ Home", link: "/main/" }],
+      items: [{ text: "🏘️ Inicio", link: "/es/main/" }],
     },
     {
-      text: "🛡️ Moderation",
+      text: "🛡️ Moderación",
       collapsed: true,
-      link: "/main/moderation/",
+      link: "/es/main/moderation/",
       items: [
-        { text: "A", link: "/main/moderation/A" },
-        { text: "B", link: "/main/moderation/B" },
+        { text: "A", link: "/es/main/moderation/A" },
+        { text: "B", link: "/es/main/moderation/B" },
       ],
     },
     {
-      text: "🤖 Automoderation",
+      text: "🤖 Automoderación",
       collapsed: true,
-      link: "/main/automoderation/",
+      link: "/es/main/automoderation/",
       items: [
-        { text: "A", link: "/main/automoderation/A" },
-        { text: "B", link: "/main/automoderation/B" },
+        { text: "A", link: "/es/main/automoderation/A" },
+        { text: "B", link: "/es/main/automoderation/B" },
       ],
     },
     {
-      text: "🖲️ Systems",
+      text: "🖲️ Sistemas",
       collapsed: true,
-      link: "/main/systems/",
+      link: "/es/main/systems/",
       items: [
-        { text: "A", link: "/main/systems/A" },
-        { text: "B", link: "/main/systems/B" },
+        { text: "A", link: "/es/main/systems/A" },
+        { text: "B", link: "/es/main/systems/B" },
       ],
     },
     {
@@ -393,43 +393,43 @@ function MainEs() {
       collapsed: true,
       link: "/main/logs/",
       items: [
-        { text: "A", link: "/main/logs/A" },
-        { text: "B", link: "/main/logs/B" },
+        { text: "A", link: "/es/main/logs/A" },
+        { text: "B", link: "/es/main/logs/B" },
       ],
     },
     {
-      text: "🛠️ Specific Utilities",
+      text: "🛠️ Utilidades específicas",
       collapsed: true,
-      link: "/main/specific-utilities/",
+      link: "/es/main/specific-utilities/",
       items: [
-        { text: "A", link: "/main/specific-utilities/A" },
-        { text: "B", link: "/main/specific-utilities/B" },
+        { text: "A", link: "/es/main/specific-utilities/A" },
+        { text: "B", link: "/es/main/specific-utilities/B" },
       ],
     },
     {
-      text: "🖌️ Common Utilities",
+      text: "🖌️ Utilidades comunes",
       collapsed: true,
-      link: "/main/common-utilities/",
+      link: "/es/main/common-utilities/",
       items: [
-        { text: "A", link: "/main/common-utilities/A" },
-        { text: "B", link: "/main/common-utilities/B" },
+        { text: "A", link: "/es/main/common-utilities/A" },
+        { text: "B", link: "/es/main/common-utilities/B" },
       ],
     },
     {
-      text: "⚙️ Settings",
+      text: "⚙️ Ajustes",
       collapsed: true,
-      link: "/main/settings/",
+      link: "/es/main/settings/",
       items: [
-        { text: "A", link: "/main/settings/A" },
-        { text: "B", link: "/main/settings/B" },
+        { text: "A", link: "/es/main/settings/A" },
+        { text: "B", link: "/es/main/settings/B" },
       ],
     },
     {
       text: " ",
       items: [
-        { text: "Reference", link: "/reference/" },
-        { text: "Infrastructure", link: "/infrastructure/" },
-        { text: "Contribution Guide", link: "/contribution/" },
+        { text: "Referencia global", link: "/es/reference/" },
+        { text: "Infraestructura", link: "/es/infrastructure/" },
+        { text: "Guía de Contribución", link: "/es/contribution/" },
       ],
     },
   ];
