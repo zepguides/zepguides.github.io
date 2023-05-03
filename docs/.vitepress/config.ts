@@ -189,7 +189,78 @@ function Main() {
   return [
     {
       text: " ",
-      items: [{ text: "Home", link: "/main/" }],
+      items: [{ text: "🏘️ Home", link: "/main/" }],
+    },
+    {
+      text: "🛡️ Moderation",
+      collapsed: true,
+      link: "/main/moderation/",
+      items: [
+        { text: "A", link: "/main/moderation/A" },
+        { text: "B", link: "/main/moderation/B" },
+      ],
+    },
+    {
+      text: "🤖 Automoderation",
+      collapsed: true,
+      link: "/main/automoderation/",
+      items: [
+        { text: "A", link: "/main/automoderation/A" },
+        { text: "B", link: "/main/automoderation/B" },
+      ],
+    },
+    {
+      text: "🖲️ Systems",
+      collapsed: true,
+      link: "/main/systems/",
+      items: [
+        { text: "A", link: "/main/systems/A" },
+        { text: "B", link: "/main/systems/B" },
+      ],
+    },
+    {
+      text: "🖇️ Logs",
+      collapsed: true,
+      link: "/main/logs/",
+      items: [
+        { text: "A", link: "/main/logs/A" },
+        { text: "B", link: "/main/logs/B" },
+      ],
+    },
+    {
+      text: "🛠️ Specific Utilities",
+      collapsed: true,
+      link: "/main/specific-utilities/",
+      items: [
+        { text: "A", link: "/main/specific-utilities/A" },
+        { text: "B", link: "/main/specific-utilities/B" },
+      ],
+    },
+    {
+      text: "🖌️ Common Utilities",
+      collapsed: true,
+      link: "/main/common-utilities/",
+      items: [
+        { text: "A", link: "/main/common-utilities/A" },
+        { text: "B", link: "/main/common-utilities/B" },
+      ],
+    },
+    {
+      text: "⚙️ Settings",
+      collapsed: true,
+      link: "/main/settings/",
+      items: [
+        { text: "A", link: "/main/settings/A" },
+        { text: "B", link: "/main/settings/B" },
+      ],
+    },
+    {
+      text: " ",
+      items: [
+        { text: "Reference", link: "/reference/" },
+        { text: "Infrastructure", link: "/infrastructure/" },
+        { text: "Contribution Guide", link: "/contribution/" },
+      ],
     },
   ];
 }
@@ -288,7 +359,78 @@ function MainEs() {
   return [
     {
       text: " ",
-      items: [{ text: "Inicio", link: "/es/main/" }],
+      items: [{ text: "🏘️ Home", link: "/main/" }],
+    },
+    {
+      text: "🛡️ Moderation",
+      collapsed: true,
+      link: "/main/moderation/",
+      items: [
+        { text: "A", link: "/main/moderation/A" },
+        { text: "B", link: "/main/moderation/B" },
+      ],
+    },
+    {
+      text: "🤖 Automoderation",
+      collapsed: true,
+      link: "/main/automoderation/",
+      items: [
+        { text: "A", link: "/main/automoderation/A" },
+        { text: "B", link: "/main/automoderation/B" },
+      ],
+    },
+    {
+      text: "🖲️ Systems",
+      collapsed: true,
+      link: "/main/systems/",
+      items: [
+        { text: "A", link: "/main/systems/A" },
+        { text: "B", link: "/main/systems/B" },
+      ],
+    },
+    {
+      text: "🖇️ Logs",
+      collapsed: true,
+      link: "/main/logs/",
+      items: [
+        { text: "A", link: "/main/logs/A" },
+        { text: "B", link: "/main/logs/B" },
+      ],
+    },
+    {
+      text: "🛠️ Specific Utilities",
+      collapsed: true,
+      link: "/main/specific-utilities/",
+      items: [
+        { text: "A", link: "/main/specific-utilities/A" },
+        { text: "B", link: "/main/specific-utilities/B" },
+      ],
+    },
+    {
+      text: "🖌️ Common Utilities",
+      collapsed: true,
+      link: "/main/common-utilities/",
+      items: [
+        { text: "A", link: "/main/common-utilities/A" },
+        { text: "B", link: "/main/common-utilities/B" },
+      ],
+    },
+    {
+      text: "⚙️ Settings",
+      collapsed: true,
+      link: "/main/settings/",
+      items: [
+        { text: "A", link: "/main/settings/A" },
+        { text: "B", link: "/main/settings/B" },
+      ],
+    },
+    {
+      text: " ",
+      items: [
+        { text: "Reference", link: "/reference/" },
+        { text: "Infrastructure", link: "/infrastructure/" },
+        { text: "Contribution Guide", link: "/contribution/" },
+      ],
     },
   ];
 }
