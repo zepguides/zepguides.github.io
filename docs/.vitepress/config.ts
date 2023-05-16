@@ -189,7 +189,7 @@ function Main() {
   return [
     {
       text: " ",
-      items: [{ text: "🏘️ Home", link: "/main/" }],
+      items: [{ text: "Home", link: "/main/" }],
     },
     {
       text: "🛡️ Moderation",
@@ -369,7 +369,7 @@ function MainEs() {
   return [
     {
       text: " ",
-      items: [{ text: "🏘️ Inicio", link: "/es/main/" }],
+      items: [{ text: "Inicio", link: "/es/main/" }],
     },
     {
       text: "🛡️ Moderación",
