@@ -196,8 +196,9 @@ function Main() {
       collapsed: true,
       link: "/main/moderation/",
       items: [
-        { text: "A", link: "/main/moderation/A" },
-        { text: "B", link: "/main/moderation/B" },
+        { text: "Mod Commands", link: "/main/moderation/A" },
+        { text: "Mutes", link: "/main/moderation/A" },
+        { text: "Slowmode", link: "/main/moderation/B" },
       ],
     },
     {
@@ -205,8 +206,8 @@ function Main() {
       collapsed: true,
       link: "/main/automoderation/",
       items: [
-        { text: "A", link: "/main/automoderation/A" },
-        { text: "B", link: "/main/automoderation/B" },
+        { text: "Automod Plugin", link: "/main/automoderation/A" },
+        { text: "Legacy Automod Plugins", link: "/main/automoderation/B" },
       ],
     },
     {
@@ -214,8 +215,9 @@ function Main() {
       collapsed: true,
       link: "/main/systems/",
       items: [
-        { text: "A", link: "/main/systems/A" },
-        { text: "B", link: "/main/systems/B" },
+        { text: "Counters", link: "/main/systems/A" },
+        { text: "Custom Tags", link: "/main/systems/A" },
+        { text: "Phisherman", link: "/main/systems/B" },
       ],
     },
     {
@@ -223,8 +225,8 @@ function Main() {
       collapsed: true,
       link: "/main/logs/",
       items: [
-        { text: "A", link: "/main/logs/A" },
-        { text: "B", link: "/main/logs/B" },
+        { text: "Main Logs", link: "/main/logs/A" },
+        { text: "Mod Logs", link: "/main/logs/B" },
       ],
     },
     {
@@ -232,8 +234,11 @@ function Main() {
       collapsed: true,
       link: "/main/specific-utilities/",
       items: [
-        { text: "A", link: "/main/specific-utilities/A" },
-        { text: "B", link: "/main/specific-utilities/B" },
+        { text: "Persist Plugin", link: "/main/specific-utilities/A" },
+        { text: "Role Buttons", link: "/main/specific-utilities/B" },
+        { text: "Roles Plugin", link: "/main/specific-utilities/B" },
+        { text: "Starboard", link: "/main/specific-utilities/B" },
+        { text: "Welcome Messages", link: "/main/specific-utilities/B" },
       ],
     },
     {
@@ -241,8 +246,12 @@ function Main() {
       collapsed: true,
       link: "/main/common-utilities/",
       items: [
-        { text: "A", link: "/main/common-utilities/A" },
-        { text: "B", link: "/main/common-utilities/B" },
+        { text: "Utility Commands", link: "/main/common-utilities/A" },
+        { text: "Autodelete Messages", link: "/main/common-utilities/B" },
+        { text: "Autoreactions", link: "/main/common-utilities/A" },
+        { text: "Manage Roles", link: "/main/common-utilities/B" },
+        { text: "Post Plugin", link: "/main/common-utilities/A" },
+        { text: "Reminders Plugin", link: "/main/common-utilities/B" },
       ],
     },
     {
@@ -250,8 +259,9 @@ function Main() {
       collapsed: true,
       link: "/main/settings/",
       items: [
-        { text: "A", link: "/main/settings/A" },
-        { text: "B", link: "/main/settings/B" },
+        { text: "Prefix", link: "/main/settings/A" },
+        { text: "Levels", link: "/main/settings/B" },
+        { text: "Time and Date", link: "/main/settings/B" },
       ],
     },
     {
@@ -366,8 +376,9 @@ function MainEs() {
       collapsed: true,
       link: "/es/main/moderation/",
       items: [
-        { text: "A", link: "/es/main/moderation/A" },
-        { text: "B", link: "/es/main/moderation/B" },
+        { text: "Comandos de moderación", link: "/es/main/moderation/A" },
+        { text: "Silencios / Mutes", link: "/es/main/moderation/A" },
+        { text: "Modo lento", link: "/es/main/moderation/B" },
       ],
     },
     {
@@ -375,8 +386,11 @@ function MainEs() {
       collapsed: true,
       link: "/es/main/automoderation/",
       items: [
-        { text: "A", link: "/es/main/automoderation/A" },
-        { text: "B", link: "/es/main/automoderation/B" },
+        { text: "Plugin de Automod", link: "/es/main/automoderation/A" },
+        {
+          text: "Plugins antiguos del Automod",
+          link: "/es/main/automoderation/B",
+        },
       ],
     },
     {
@@ -384,8 +398,9 @@ function MainEs() {
       collapsed: true,
       link: "/es/main/systems/",
       items: [
-        { text: "A", link: "/es/main/systems/A" },
-        { text: "B", link: "/es/main/systems/B" },
+        { text: "Contadores", link: "/es/main/systems/A" },
+        { text: "Tags personalizados", link: "/es/main/systems/A" },
+        { text: "Phisherman", link: "/es/main/systems/B" },
       ],
     },
     {
@@ -393,8 +408,8 @@ function MainEs() {
       collapsed: true,
       link: "/main/logs/",
       items: [
-        { text: "A", link: "/es/main/logs/A" },
-        { text: "B", link: "/es/main/logs/B" },
+        { text: "Principales", link: "/es/main/logs/A" },
+        { text: "De moderación", link: "/es/main/logs/B" },
       ],
     },
     {
@@ -402,8 +417,14 @@ function MainEs() {
       collapsed: true,
       link: "/es/main/specific-utilities/",
       items: [
-        { text: "A", link: "/es/main/specific-utilities/A" },
-        { text: "B", link: "/es/main/specific-utilities/B" },
+        { text: "Plugin de Persist", link: "/es/main/specific-utilities/A" },
+        { text: "Roles en botones", link: "/es/main/specific-utilities/B" },
+        { text: "Plugins de Roles", link: "/es/main/specific-utilities/B" },
+        { text: "Starboard", link: "/es/main/specific-utilities/B" },
+        {
+          text: "Mensajes de bienvenida",
+          link: "/es/main/specific-utilities/B",
+        },
       ],
     },
     {
@@ -411,8 +432,15 @@ function MainEs() {
       collapsed: true,
       link: "/es/main/common-utilities/",
       items: [
-        { text: "A", link: "/es/main/common-utilities/A" },
-        { text: "B", link: "/es/main/common-utilities/B" },
+        { text: "Comandos de utilidad", link: "/es/main/common-utilities/A" },
+        {
+          text: "Autoborrado de mensajes",
+          link: "/es/main/common-utilities/B",
+        },
+        { text: "Auto-Reacciones", link: "/es/main/common-utilities/A" },
+        { text: "Gestionar roles", link: "/es/main/common-utilities/B" },
+        { text: "Plugin de Post", link: "/es/main/common-utilities/A" },
+        { text: "Plugin de Reminders", link: "/es/main/common-utilities/B" },
       ],
     },
     {
@@ -420,8 +448,9 @@ function MainEs() {
       collapsed: true,
       link: "/es/main/settings/",
       items: [
-        { text: "A", link: "/es/main/settings/A" },
-        { text: "B", link: "/es/main/settings/B" },
+        { text: "Prefix", link: "/es/main/settings/A" },
+        { text: "Niveles", link: "/es/main/settings/B" },
+        { text: "Fecha y hora", link: "/es/main/settings/B" },
       ],
     },
     {
